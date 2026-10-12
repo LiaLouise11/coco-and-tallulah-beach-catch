@@ -4,9 +4,10 @@ A colourful 20-second beach fishing game. Choose Coco, Tallulah, Winter or Porti
 
 ## Play
 
-Once GitHub Pages is enabled: https://lialouise11.github.io/coco-and-tallulah-beach-catch/
+https://lialouise11.github.io/coco-and-tallulah-beach-catch/
 
-- Move: arrow keys or A / D
+- Phone or tablet: hold the large left/right buttons below the beach, and tap Jump with your other thumb. The portrait view follows your cat and shows a readable timer and score.
+- Move on keyboard: arrow keys or A / D
 - Jump: Space or the on-screen Jump button
 - Pause: P
 - Restart: R
@@ -16,3 +17,7 @@ Regular fish earn 1 credit, gold fish 2, the rare purple fish 10, and the silver
 The browser game is self-contained in `index.html`. No build or dependencies are required.
 
 Inspired by https://github.com/Tingsters/Phippy-Gaming-Workshop. All game artwork is drawn directly in code.
+
+## Checking game rules
+
+Run `node check-game.mjs` with Node.js to check scoring, cat selection, player turns, shark attacks, and multi-touch input.
